@@ -1,6 +1,7 @@
 package siwggydemo;
 
 import java.util.List;
+import java.util.Objects;
 
 public class Resturant {
 
@@ -20,5 +21,21 @@ public class Resturant {
                     ", dishesList=" + dishesList +
                     '}';
         }
+
+    @Override
+    public boolean equals(Object obj) {
+            if(this==obj){
+                return true;
+
+
+            }
+            if(this.getClass()!=obj.getClass()){
+                return false;
+            }
+            Resturant resturant=(Resturant) obj;
+            return this.name.equals(resturant.name);
     }
+
+
+}
 

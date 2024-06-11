@@ -23,10 +23,6 @@ public class SwiigyService {
             roastAddress.street="rsnagar";
             roastAddress.pinCode="511090";
 
-            List<Address> addressList=new ArrayList<>();
-            addressList.add(paradiseAddress);
-            addressList.add(subwayAddress);
-            addressList.add(roastAddress);
 
 
 
@@ -37,19 +33,19 @@ public class SwiigyService {
             paradisy.name="paradisy";
             paradisy.rating=3.5;
             paradisy.address= paradiseAddress;
-            paradisy.dishesList=paradisy.dishesList;
+          ;
 
             Resturant subway=new Resturant();
             subway.name="sub way";
             subway.rating=4.2;
             subway.address= subwayAddress;
-            subway.dishesList=subway.dishesList;
+
 
             Resturant roast=new Resturant();
             roast.name="paradisy";
             roast.rating=4.0;
             roast.address= roastAddress;
-            roast.dishesList=roast.dishesList;
+
 
             Dishes biryanis=new Dishes();
             biryanis.dishName="hydrabadi biryani";
